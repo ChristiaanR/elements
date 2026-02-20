@@ -1,0 +1,21 @@
+:root {
+	--bg-color: var(--clr-prime-050);
+	--txt-color: var(--clr-neutral-900);
+	--hdr-color: var(--clr-prime-950);
+
+	--btn-bg: var(--clr-prime-700);
+	--btn-hover-bg: var(--clr-prime-900);
+	--btn-active-bg:;
+
+	--btn-border-color:;
+	--btn-hover-border-color:;
+	--btn-active-border-color:;
+
+	--nav-bg-color: var(--clr-neutral-050);
+	--nav-hover-color: var(--clr-accent-200);
+
+	--card-border-color: var(--clr-neutral-200);
+	--card-bg: var(--clr-neutral-050);
+	@media (prefers-color-scheme: dark) {
+	}
+}

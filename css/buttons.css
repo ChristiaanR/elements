@@ -1,0 +1,44 @@
+.btn,
+button {
+	transition: all 0.05s linear;
+	display: inline-block;
+	padding-inline: 1em;
+	box-shadow:
+		0 0.2em 0.2em var(--trans-light-300) inset,
+		0 0.2em 0.2em var(--trans-dark-300);
+
+	text-decoration: none;
+	cursor: pointer;
+
+	background: var(--btn-bg);
+	color: var(--clr-prime-025);
+
+	border: 1px solid var(--clr-prime-800);
+	border-radius: 0.5em;
+
+	/* Accessability min touch targets 44×44 */
+	line-height: 2.75; /* 44/16 */
+	min-width: 2.75rem;
+	&:hover {
+		background-color: var(--btn-hover-bg);
+	}
+	&:active {
+		translate: 0 0.2em;
+		box-shadow:
+			0 0.2em 0.2em var(--trans-dark-300) inset,
+			0 0 var(--trans-dark-300);
+	}
+}
+
+.skip {
+	position: absolute;
+	top: -3rem;
+	left: 1rem;
+	&:focus-visible {
+		top: 1rem;
+	}
+}
+
+*:focus-visible {
+	outline-color: var(--clr-accent-700);
+}

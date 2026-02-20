@@ -1,42 +1,68 @@
 :root {
-	--clr-prime-025: oklch(99% 0.02 161);
-	--clr-prime-050: oklch(92% 0.04 161);
-	--clr-prime-100: oklch(85% 0.06 161);
-	--clr-prime-200: oklch(78% 0.09 161);
-	--clr-prime-300: oklch(71% 0.12 161);
-	--clr-prime-400: oklch(64% 0.14 161);
-	--clr-prime-500: oklch(57% 0.15 161); /* rijkste kleur */
-	--clr-prime-600: oklch(50% 0.13 161);
-	--clr-prime-700: oklch(43% 0.1 161);
-	--clr-prime-800: oklch(35% 0.07 161);
-	--clr-prime-900: oklch(25% 0.04 161);
-	--clr-prime-950: oklch(15% 0.02 161);
+	--clr-prime-025: oklch(99.4% 0.0047 158);
+	--clr-prime-050: oklch(98.2% 0.0098 158);
+	--clr-prime-100: oklch(95.9% 0.0246 158);
+	--clr-prime-200: oklch(93.3% 0.039 158);
+	--clr-prime-300: oklch(90.1% 0.0533 158);
+	--clr-prime-400: oklch(85.7% 0.0695 158);
+	--clr-prime-500: oklch(79.8% 0.0904 158);
+	--clr-prime-600: oklch(71.4% 0.1213 158);
+	--clr-prime-700: oklch(57.8% 0.1361 158);
+	--clr-prime-800: oklch(53.4% 0.1423 158);
+	--clr-prime-900: oklch(52.9% 0.1361 158);
+	--clr-prime-950: oklch(32.2% 0.051 158);
 
-	--clr-accent-025: oklch(99% 0.02 33);
-	--clr-accent-050: oklch(92% 0.04 33);
-	--clr-accent-100: oklch(85% 0.06 33);
-	--clr-accent-200: oklch(78% 0.09 33);
-	--clr-accent-300: oklch(71% 0.12 33);
-	--clr-accent-400: oklch(64% 0.14 33);
-	--clr-accent-500: oklch(57% 0.15 33); /* rijkste kleur */
-	--clr-accent-600: oklch(50% 0.13 33);
-	--clr-accent-700: oklch(43% 0.1 33);
-	--clr-accent-800: oklch(35% 0.07 33);
-	--clr-accent-900: oklch(25% 0.04 33);
-	--clr-accent-950: oklch(15% 0.02 33);
+	--clr-accent-025: oklch(99.4% 0.0051 9.77);
+	--clr-accent-050: oklch(98.3% 0.0124 9.77);
+	--clr-accent-100: oklch(95.4% 0.0342 9.77);
+	--clr-accent-200: oklch(92.7% 0.0603 9.77);
+	--clr-accent-300: oklch(89.5% 0.0784 9.77);
+	--clr-accent-400: oklch(85.7% 0.0952 9.77);
+	--clr-accent-500: oklch(81% 0.1163 9.77);
+	--clr-accent-600: oklch(75% 0.1487 9.77);
+	--clr-accent-700: oklch(42% 0.1679 9.77);
+	--clr-accent-800: oklch(36.2% 0.1679 9.77);
+	--clr-accent-900: oklch(55.1% 0.1679 9.77);
+	--clr-accent-950: oklch(34.4% 0.1679 9.77);
 
-	--clr-neutral-025: oklch(99% 0 161);
-	--clr-neutral-050: oklch(92% 0 161);
-	--clr-neutral-100: oklch(85% 0 161);
-	--clr-neutral-200: oklch(78% 0 161);
-	--clr-neutral-300: oklch(71% 0 161);
-	--clr-neutral-400: oklch(64% 0 161);
-	--clr-neutral-500: oklch(57% 0 161);
-	--clr-neutral-600: oklch(50% 0 161);
-	--clr-neutral-700: oklch(43% 0 161);
-	--clr-neutral-800: oklch(35% 0 161);
-	--clr-neutral-900: oklch(25% 0 161);
-	--clr-neutral-950: oklch(15% 0 161);
+	--clr-neutral-025: oklch(99.1% 0.0007 158);
+	--clr-neutral-050: oklch(98.2% 0.0014 158);
+	--clr-neutral-100: oklch(95.6% 0.0022 158);
+	--clr-neutral-200: oklch(93.1% 0.0029 158);
+	--clr-neutral-300: oklch(91% 0.0037 158);
+	--clr-neutral-400: oklch(88.8% 0.0044 158);
+	--clr-neutral-500: oklch(85.3% 0.0056 158);
+	--clr-neutral-600: oklch(79.4% 0.0076 158);
+	--clr-neutral-700: oklch(64.6% 0.0078 158);
+	--clr-neutral-800: oklch(61% 0.0077 158);
+	--clr-neutral-900: oklch(50.3% 0.0066 158);
+	--clr-neutral-950: oklch(24.1% 0.0047 158);
+
+	--trans-light-025: hsl(0 0% 100% / 0.05);
+	--trans-light-050: hsl(0 0% 100% / 0.1);
+	--trans-light-100: hsl(0 0% 100% / 0.15);
+	--trans-light-200: hsl(0 0% 100% / 0.2);
+	--trans-light-300: hsl(0 0% 100% / 0.3);
+	--trans-light-400: hsl(0 0% 100% / 0.4);
+	--trans-light-500: hsl(0 0% 100% / 0.5);
+	--trans-light-600: hsl(0 0% 100% / 0.6);
+	--trans-light-700: hsl(0 0% 100% / 0.7);
+	--trans-light-800: hsl(0 0% 100% / 0.8);
+	--trans-light-900: hsl(0 0% 100% / 0.9);
+	--trans-light-950: hsl(0 0% 100% / 0.95);
+
+	--trans-dark-025: hsl(0 0% 0% / 0.05);
+	--trans-dark-050: hsl(0 0% 0% / 0.1);
+	--trans-dark-100: hsl(0 0% 0% / 0.15);
+	--trans-dark-200: hsl(0 0% 0% / 0.2);
+	--trans-dark-300: hsl(0 0% 0% / 0.3);
+	--trans-dark-400: hsl(0 0% 0% / 0.4);
+	--trans-dark-500: hsl(0 0% 0% / 0.5);
+	--trans-dark-600: hsl(0 0% 0% / 0.6);
+	--trans-dark-700: hsl(0 0% 0% / 0.7);
+	--trans-dark-800: hsl(0 0% 0% / 0.8);
+	--trans-dark-900: hsl(0 0% 0% / 0.9);
+	--trans-dark-950: hsl(0 0% 0% / 0.95);
 }
 /*
 
@@ -57,3 +83,15 @@
 12  High-contrast text
 
 */
+
+:root {
+	--text-size-xs: 0.64rem;
+	--text-size-sm: 0.8rem;
+	--text-size-p: 1rem;
+	--text-size-h6: 1.25rem;
+	--text-size-h5: 1.56rem;
+	--text-size-h4: 1.95rem;
+	--text-size-h3: 2.44rem;
+	--text-size-h2: 3.05rem;
+	--text-size-h1: 3.81rem;
+}

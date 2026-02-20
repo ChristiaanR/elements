@@ -1,0 +1,11 @@
+.body-wrapper {
+	margin-inline: auto;
+	width: min(98%, 87.5rem);
+
+	background: var(--clr-prime-025);
+
+	> div,
+	section {
+		margin-inline: 1rem;
+	}
+}

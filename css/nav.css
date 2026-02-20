@@ -1,12 +1,19 @@
-nav a {
+nav li a {
 	text-decoration: none;
+	display: block;
 
 	/* Accessability min touch targets 44×44 */
 	line-height: 2.75; /* 44/16 */
+	/* padding-block: 1.375em; */
+	padding-inline: 1em;
 }
 
 nav ul,
 ul.nav {
 	list-style: none;
 	padding-inline-start: 0;
+	margin-block: 0;
+}
+
+.navbar {
 }

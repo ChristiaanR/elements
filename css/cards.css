@@ -1,5 +1,24 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
 .card {
+	flex: 1 0 18rem;
+
 	border-radius: 0.5rem;
-	border: 1px solid grey;
-	background: var(--clr-neutral-050);
+	border: 1px solid var(--card-border-color);
+	background: var(--card-bg);
+
+	padding: 1rem;
+	margin-block: 1rem;
+
+	img {
+		width: 100%;
+	}
+}
+
+.card-title {
+	margin-block-start: 0.5em;
 }

@@ -1,0 +1,29 @@
+:root {
+	--h-font-family: "Anybody", Verdana, display;
+	--p-font-family: "Manrope", Arial, sans-serif;
+}
+
+body {
+	font-family: var(--p-font-family);
+	font-weight: 400;
+	color: var(--txt-color);
+}
+h1,
+h2,
+h3 {
+	font-family: var(--h-font-family);
+	font-weight: 700;
+	color: var(--hdr-color);
+}
+h1 {
+	font-size: var(--text-size-h1);
+}
+h2 {
+	font-size: var(--text-size-h2);
+}
+h3 {
+	font-size: var(--text-size-h3);
+}
+h4 {
+	font-size: var(--text-size-h4);
+}
