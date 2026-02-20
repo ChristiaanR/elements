@@ -1,0 +1,12 @@
+nav a {
+	text-decoration: none;
+
+	/* Accessability min touch targets 44×44 */
+	line-height: 2.75; /* 44/16 */
+}
+
+nav ul,
+ul.nav {
+	list-style: none;
+	padding-inline-start: 0;
+}

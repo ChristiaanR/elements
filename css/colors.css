@@ -1,0 +1,131 @@
+/* Base: prime - accent - neutral */
+/* Status: Action / Info / Warning / Success / Danger */
+/* Assigned: Background / Surface / Border / Text / Highlight / Muted / Strong */
+/* Alternative: background / surface / overlay / elevation / highlight */
+
+.color-blocks {
+}
+.color-row {
+	display: flex;
+}
+[class|="block"] {
+	aspect-ratio: 1;
+	flex-grow: 1;
+}
+
+.colors-neutral {
+	.block-025 {
+		background: var(--clr-neutral-025);
+	}
+	.block-050 {
+		background: var(--clr-neutral-050);
+	}
+	.block-100 {
+		background: var(--clr-neutral-100);
+	}
+	.block-200 {
+		background: var(--clr-neutral-200);
+	}
+	.block-300 {
+		background: var(--clr-neutral-300);
+	}
+	.block-400 {
+		background: var(--clr-neutral-400);
+	}
+	.block-500 {
+		background: var(--clr-neutral-500);
+	}
+	.block-600 {
+		background: var(--clr-neutral-600);
+	}
+	.block-700 {
+		background: var(--clr-neutral-700);
+	}
+	.block-800 {
+		background: var(--clr-neutral-800);
+	}
+	.block-900 {
+		background: var(--clr-neutral-900);
+	}
+	.block-950 {
+		background: var(--clr-neutral-950);
+	}
+}
+
+.colors-prime {
+	.block-025 {
+		background: var(--clr-prime-025);
+	}
+	.block-050 {
+		background: var(--clr-prime-050);
+	}
+	.block-100 {
+		background: var(--clr-prime-100);
+	}
+	.block-200 {
+		background: var(--clr-prime-200);
+	}
+	.block-300 {
+		background: var(--clr-prime-300);
+	}
+	.block-400 {
+		background: var(--clr-prime-400);
+	}
+	.block-500 {
+		background: var(--clr-prime-500);
+	}
+	.block-600 {
+		background: var(--clr-prime-600);
+	}
+	.block-700 {
+		background: var(--clr-prime-700);
+	}
+	.block-800 {
+		background: var(--clr-prime-800);
+	}
+	.block-900 {
+		background: var(--clr-prime-900);
+	}
+	.block-950 {
+		background: var(--clr-prime-950);
+	}
+}
+
+.colors-accent {
+	.block-025 {
+		background: var(--clr-accent-025);
+	}
+	.block-050 {
+		background: var(--clr-accent-050);
+	}
+	.block-100 {
+		background: var(--clr-accent-100);
+	}
+	.block-200 {
+		background: var(--clr-accent-200);
+	}
+	.block-300 {
+		background: var(--clr-accent-300);
+	}
+	.block-400 {
+		background: var(--clr-accent-400);
+	}
+	.block-500 {
+		background: var(--clr-accent-500);
+	}
+	.block-600 {
+		background: var(--clr-accent-600);
+	}
+	.block-700 {
+		background: var(--clr-accent-700);
+	}
+	.block-800 {
+		background: var(--clr-accent-800);
+	}
+	.block-900 {
+		background: var(--clr-accent-900);
+	}
+	.block-950 {
+		background: var(--clr-accent-950);
+	}
+}

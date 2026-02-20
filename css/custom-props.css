@@ -1,0 +1,59 @@
+:root {
+	--clr-prime-025: oklch(99% 0.02 161);
+	--clr-prime-050: oklch(92% 0.04 161);
+	--clr-prime-100: oklch(85% 0.06 161);
+	--clr-prime-200: oklch(78% 0.09 161);
+	--clr-prime-300: oklch(71% 0.12 161);
+	--clr-prime-400: oklch(64% 0.14 161);
+	--clr-prime-500: oklch(57% 0.15 161); /* rijkste kleur */
+	--clr-prime-600: oklch(50% 0.13 161);
+	--clr-prime-700: oklch(43% 0.1 161);
+	--clr-prime-800: oklch(35% 0.07 161);
+	--clr-prime-900: oklch(25% 0.04 161);
+	--clr-prime-950: oklch(15% 0.02 161);
+
+	--clr-accent-025: oklch(99% 0.02 33);
+	--clr-accent-050: oklch(92% 0.04 33);
+	--clr-accent-100: oklch(85% 0.06 33);
+	--clr-accent-200: oklch(78% 0.09 33);
+	--clr-accent-300: oklch(71% 0.12 33);
+	--clr-accent-400: oklch(64% 0.14 33);
+	--clr-accent-500: oklch(57% 0.15 33); /* rijkste kleur */
+	--clr-accent-600: oklch(50% 0.13 33);
+	--clr-accent-700: oklch(43% 0.1 33);
+	--clr-accent-800: oklch(35% 0.07 33);
+	--clr-accent-900: oklch(25% 0.04 33);
+	--clr-accent-950: oklch(15% 0.02 33);
+
+	--clr-neutral-025: oklch(99% 0 161);
+	--clr-neutral-050: oklch(92% 0 161);
+	--clr-neutral-100: oklch(85% 0 161);
+	--clr-neutral-200: oklch(78% 0 161);
+	--clr-neutral-300: oklch(71% 0 161);
+	--clr-neutral-400: oklch(64% 0 161);
+	--clr-neutral-500: oklch(57% 0 161);
+	--clr-neutral-600: oklch(50% 0 161);
+	--clr-neutral-700: oklch(43% 0 161);
+	--clr-neutral-800: oklch(35% 0 161);
+	--clr-neutral-900: oklch(25% 0 161);
+	--clr-neutral-950: oklch(15% 0 161);
+}
+/*
+
+1 App background
+2 Subtle background
+
+3 UI element background
+4 Hovered UI element background
+5 Active / Selected UI element background
+
+6 Subtle borders and separators
+7 UI element border and focus rings
+8 Hovered UI element border
+
+9 Solid backgrounds
+10  Hovered solid backgrounds
+11  Low-contrast text
+12  High-contrast text
+
+*/
