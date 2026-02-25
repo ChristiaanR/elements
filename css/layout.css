@@ -9,3 +9,9 @@
 		margin-inline: 1rem;
 	}
 }
+
+footer {
+	min-height: 15rem;
+	align-content: center;
+	background: var(--clr-neutral-300);
+}

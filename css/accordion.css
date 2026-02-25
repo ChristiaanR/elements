@@ -1,0 +1,51 @@
+:root {
+	--interaction-hover-bg: /*button-hover*/;
+}
+
+.accordion-outer {
+	margin: 1rem;
+}
+
+summary {
+	/* padding: 0.5em;*/
+	line-height: 2.75;
+	padding-inline: 1em;
+	cursor: pointer;
+
+	border: 1px solid var(--btn);
+
+	&:hover {
+		background-color: var(--btn-hover-bg);
+	}
+	+ * {
+		padding: 1em;
+		background: var(--interaction-hover-bg);
+	}
+	+ *:last-child {
+		margin-block-end: 0;
+	}
+}
+
+details {
+	@media (prefers-reduced-motion: no-preference) {
+		/* prevents motion */
+		interpolate-size: allow-keywords;
+	}
+
+	&::details-content {
+		opacity: 0;
+		block-size: 0;
+		overflow-y: clip;
+		transition:
+			content-visibility 0.5s allow-discrete,
+			opacity 0.5s,
+			block-size 0.5s;
+	}
+}
+
+details {
+	&[open]::details-content {
+		opacity: 1;
+		block-size: auto;
+	}
+}

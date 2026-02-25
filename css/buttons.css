@@ -1,5 +1,7 @@
 .btn,
 button {
+	--_btn-radius: 0.5em;
+
 	transition: all 0.05s linear;
 	display: inline-block;
 	padding-inline: 1em;
@@ -11,10 +13,10 @@ button {
 	cursor: pointer;
 
 	background: var(--btn-bg);
-	color: var(--clr-prime-025);
+	color: var(--btn-txt);
 
-	border: 1px solid var(--clr-prime-800);
-	border-radius: 0.5em;
+	border: 1px solid var(--btn-border-color);
+	border-radius: var(--_btn-radius);
 
 	/* Accessability min touch targets 44×44 */
 	line-height: 2.75; /* 44/16 */
@@ -41,4 +43,17 @@ button {
 
 *:focus-visible {
 	outline-color: var(--clr-accent-700);
+}
+
+.button-group {
+	.btn,
+	button {
+		border-radius: 0;
+		&:first-child {
+			border-radius: var(--_btn-radius) 0 0 var(--_btn-radius);
+		}
+		&:last-child {
+			border-radius: 0 var(--_btn-radius) var(--_btn-radius) 0;
+		}
+	}
 }

@@ -13,6 +13,7 @@
   <!-- via develop@chr.nl -->
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/custom-props.css">
+  <link rel="stylesheet" href="./css/utilities.css">
   <link rel="stylesheet" href="./css/text.css">
   <link rel="stylesheet" href="./css/layout.css">
   <link rel="stylesheet" href="./css/buttons.css">
@@ -31,16 +32,18 @@
       <?php include 'components/nav.php'; ?>
       <?php include 'components/cards.php'; ?>
       <?php include 'components/colors.php'; ?>
+      <?php include 'components/accordion.php'; ?>
+      <?php include 'components/button-group.php'; ?>
+      <?php include 'components/form.php'; ?>
     </main>
   </div>
 
   <div>
-    <details>
-      <summary>Details</summary>
-      Something small enough to escape casual notice.
-    </details>
-  </div>
 
+  </div>
+  <footer>
+    ©2026 − Christiaan Ruiter
+  </footer>
 </body>
 
 </html>

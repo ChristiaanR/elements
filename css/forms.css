@@ -1,0 +1,19 @@
+.input-group {
+	display: flex;
+	align-items: baseline;
+	margin-block-end: var(--space-size-p);
+
+	label {
+		width: 10em;
+	}
+}
+
+input {
+	font: inherit;
+	padding: 0.25em;
+	color: var(--txt-color);
+}
+
+placeholder {
+	color: lime;
+}

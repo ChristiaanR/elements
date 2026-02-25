@@ -94,4 +94,18 @@
 	--text-size-h3: 2.44rem;
 	--text-size-h2: 3.05rem;
 	--text-size-h1: 3.81rem;
+
+	--interaction-hover-bg: var(--clr-prime-050);
+}
+
+:root {
+	--space-size-xs: 0.64rem;
+	--space-size-sm: 0.8rem;
+	--space-size-p: 1rem;
+	--space-size-h6: 1.25rem;
+	--space-size-h5: 1.56rem;
+	--space-size-h4: 1.95rem;
+	--space-size-h3: 2.44rem;
+	--space-size-h2: 3.05rem;
+	--space-size-h1: 3.81rem;
 }
