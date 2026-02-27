@@ -35,6 +35,7 @@
       <?php include 'components/accordion.php'; ?>
       <?php include 'components/button-group.php'; ?>
       <?php include 'components/form.php'; ?>
+      <?php include 'components/modal.php'; ?>
     </main>
   </div>
 

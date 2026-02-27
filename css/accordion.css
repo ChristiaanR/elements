@@ -12,10 +12,10 @@ summary {
 	padding-inline: 1em;
 	cursor: pointer;
 
-	border: 1px solid var(--btn);
+	border: 1px solid var(--btn-border-color);
 
 	&:hover {
-		background-color: var(--btn-hover-bg);
+		background-color: var(--clr-prime-100);
 	}
 	+ * {
 		padding: 1em;

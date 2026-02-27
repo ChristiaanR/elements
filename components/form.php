@@ -20,7 +20,7 @@
 
     <div class="input-group">
       <label for="email">E‑mail:</label>
-      <input type="email" id="email" name="email">
+      <input type="email" id="email" name="email" autocomplete="off">
     </div>
 
 
@@ -32,7 +32,7 @@
 
     <div class="input-group">
       <label for="tel">Telefoon:</label>
-      <input type="tel" id="tel" name="tel">
+      <input type="tel" id="tel" name="tel" autocomplete="tel">
     </div>
 
 
@@ -179,8 +179,9 @@
     <legend>Overige input types</legend>
 
     <div class="input-group">
-      <label for="hidden">Verborgen veld (hidden):</label>
-      <input type="hidden" id="hidden" name="hidden" value="verborgen-waarde">
+
+      <input type="hidden" id="field1" name="hidden-field"
+        value="verborgen-waarde">
       <span>(niet zichtbaar in de UI)</span>
     </div>
 

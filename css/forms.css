@@ -8,10 +8,19 @@
 	}
 }
 
-input {
+input:not([type="submit"], [type="reset"], [type="range"]),
+textarea {
 	font: inherit;
 	padding: 0.25em;
+
+	border-radius: 0.2em;
+	border: 1px solid var(--clr-prime-400);
 	color: var(--txt-color);
+	box-shadow: inset 0 0 5px var(--clr-prime-200);
+}
+
+select {
+	color: var(--clr-prime-500);
 }
 
 placeholder {
